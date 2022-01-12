@@ -13,7 +13,7 @@ const experienceContent = [
     position: "WEB DESIGNER & DEVELOPER",
     compnayName: "Mara Vascular and Interventional Radiology",
     details: `Designed and Developed website aside from AWS server maintenance`,
-    location: 'Oaklahoma, US'
+    location: 'Oaklahoma, USA'
 
   },
   {
