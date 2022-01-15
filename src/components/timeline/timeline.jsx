@@ -6,9 +6,8 @@ const Timeline = () => {
   return (
       <>
     <div className="row home-details-container align-items-center">
-        <div align = "center">
-        <img src = 'img/Timeline.png' height="750" width="1300" />
-
+        <div>
+        <img src = 'img/Timeline.png' className="timeline" height='650' width='1250' />
         </div>
         </div>
         </>
