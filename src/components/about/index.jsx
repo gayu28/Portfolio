@@ -99,6 +99,9 @@ const index = () => {
           </div>
         </div>
         </div>
+        {/* <div>
+          <img src = 'img/timeline.jpeg' />
+            </div> */}
         {/*  Experience & Education Ends */}
       </div>
     </section>
