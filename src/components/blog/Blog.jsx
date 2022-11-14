@@ -4,7 +4,7 @@ import Modal from "react-modal";
 import ModalOneBlogContent from "./modal/ModalOneBlogContent";
 import ModalTwoBlogContent from "./modal/ModalTwoBlogContent";
 import ModalThreeBlogContent from "./modal/ModalThreeBlogContent";
-// import ModalFourBlogContent from "./modal/ModalFourBlogContent";
+import ModalFourBlogContent from "./modal/ModalFourBlogContent";
 // import ModalFiveBlogContent from "./modal/ModalFiveBlogContent";
 // import ModalSixBlogContent from "./modal/ModalSixBlogContent";
 // import ModalSevenBlogContent from "./modal/ModalSevenBlogContent";
@@ -76,7 +76,7 @@ NeuroAnatomy </h3>
             </div>
             <div className="entry-content open-sans-font">
               <p align="justify">
-              Built in Unity, the XR System enables users to navigate and interact with 3D Brain simulations in AR & VR through C# Scripting. An evaluation section scores the understanding at the end with MCQ, Parts Identification & Overall Concept Summarisation              </p>
+              Built in Unity, the XR System enables users to navigate and interact with 3D Brain simulations in AR & VR through C# Scripting. An evaluation section scores the understanding at the end with MCQ, Parts Identification & Overall Concept Summarisation.             </p>
             </div>
           </div>
           {/* End .post-content */}
@@ -130,7 +130,7 @@ Pandemic</h3>
             </div>
             <div className="entry-content open-sans-font">
             <p align="justify">
-            Prototyping a mobile application (in Figma) with animations explaining COVID & its symptoms and provides facilities to connect Doctors for remote consultation. Incorporates essential Design concepts like Sustainability, Speculative Design and Designing from the margins      </p>      </div>
+            Prototyping a mobile application (in Figma) with animations explaining COVID & its symptoms and provides facilities to connect Doctors for remote consultation. Incorporates essential Design concepts like Sustainability, Speculative Design and Designing from the margins. </p>      </div>
           </div>
           {/* End .post-content */}
         </article>
@@ -162,53 +162,55 @@ Pandemic</h3>
 
       {/* Blog 1 Starts */}
       <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
-        <article className="post-container" onClick={toggleModalOne}>
+        <article className="post-container" onClick={toggleModalFour}>
           {/* <div className="post-thumb">
             <div className="d-block position-relative overflow-hidden">
               <img
-                src="img/blog/project1.png"
+                src="img/blog/project4.jpg"
                 className="img-fluid"
                 alt="Blog Post"
               />
-            </div> */}
-          {/* </div> */}
+            </div>
+          </div> */}
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
-              <h3>Interactive Dashboard for
-network insights of personal
-LinkedIn profile</h3>
+              <h3>3D print model generation from biomedical images</h3>
             </div>
             <div className="entry-content open-sans-font">
-              <p align="justify">
-              A compelling dashboard built primarily using Charts.js (a javascript library) to demonstrate the quality and growth of LinkedIn network. The personal archived data is downloaded and processed with Python that is used for the data visualisation              </p>
+            <p align="justify">
+              A Workflow that combines image segmentation & 3D simulations to extract tumor from MRI brain scans & devise models capable of 3D printing. 
+              </p>
             </div>
           </div>
           {/* End .post-content */}
         </article>
 
-        {/* Start ModalOneBlogContent */}
+        {/* Start ModalFourBlogContent */}
         <Modal
-          isOpen={isOpen}
-          onRequestClose={toggleModalOne}
+          isOpen={isOpen4}
+          onRequestClose={toggleModalFour}
           contentLabel="My dialog"
           className="custom-modal dark"
           overlayClassName="custom-overlay dark"
           closeTimeoutMS={500}
         >
           <div>
-            <button className="close-modal" onClick={toggleModalOne}>
+            <button className="close-modal" onClick={toggleModalFour}>
               <img src="/img/cancel.svg" alt="close icon" />
             </button>
             {/* End close icon */}
 
             <div className="box_inner blog-post">
-              <ModalOneBlogContent />
+              <ModalFourBlogContent />
             </div>
           </div>
         </Modal>
-        {/* End  ModalOneBlogContent */}
+        {/* End  ModalFourBlogContent */}
       </div>
+      {/* Blog 4  Ends */}
+
+        
       {/*  Blog 1 Ends */}    
 
 

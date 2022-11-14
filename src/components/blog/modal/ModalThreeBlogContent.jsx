@@ -29,7 +29,7 @@ Design Concepts
       <h1>Mobile Application Design
 for awareness & remote
 patient recovery during
-Pandemic <a href="https://github.com/sowmiya-2805/SOMPS-Net-Social-graph-framework-for-fake-health-news-detection"><i class="fa fa-link" aria-hidden="true"></i></a>  </h1>
+Pandemic <a href="https://drive.google.com/drive/folders/1TOzD324ONHkCUePRFLDcCbgefim5pdDa?usp=sharing"><i class="fa fa-link" aria-hidden="true"></i></a>  </h1>
   </div>
       <img src="img/blog/AppDesign.png" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
@@ -49,7 +49,7 @@ legal authority. Incorporates
 essential Design concepts like
 Sustainability, Speculative
 Design and Designing from
-the margins     </p> </div>
+the margins.     </p> </div>
       {/* Article Content Ends */}
     </article>
     // Article Ends

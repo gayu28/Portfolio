@@ -1394,6 +1394,19 @@ body.light .contact .custom-span-contact a {
   }
 }
 
+@media (max-width: 1100px) {
+  .timeline {
+    // margin-top: 0px;
+    display:block;
+    height: 300;
+    width: 850px;
+    // margin-left:70px;
+    // img{
+    // height:'150';
+    // width:'350';
+  }
+}
+
 // venn diagram responsive
 
 

@@ -29,8 +29,12 @@ Education
       {/* Meta Ends */}
       {/* Article Content Starts */}
 
+      <div className="link">
       <h1>XR System to teach
-NeuroAnatomy </h1>
+NeuroAnatomy <a href="https://drive.google.com/drive/folders/1SAJDA-aHEBoSqOLfZfOIB_IShrU8Jgv4?usp=share_link"><i class="fa fa-link" aria-hidden="true"></i></a> </h1>
+  </div>
+
+      
       <img src="img/blog/Brain.jpeg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
         <p align="justify">
@@ -51,7 +55,7 @@ evaluation section scores the
 understanding at the end with
 MCQ, Parts Identification &
 Overall Concept
-Summarisation        </p>
+Summarisation.       </p>
         {/* <div className="quotebox">
           <div className="icon">
             <img src="img/blog/quote.svg" alt="blog quote" />
