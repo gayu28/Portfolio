@@ -6,8 +6,8 @@ const heroContent = {
   heroImage: "img/hero/dark.jpg",
   heroMobileImage: "img-mobile",
   heroTitleName: "Sowmiya",
-  heroDesignation: "CSE Undergrad",
-  heroDescriptions: `I'm a Computer Science and Engineering undergrad aspiring to pursue my future in immersive technologies to transform human lives in meaningful ways.`,
+  heroDesignation: "CREATIVE TECHNOLOGIST AND ASPIRING XR DESIGNER",
+  heroDescriptions: `I'm a junior Master's Student specialising in Creative Technologies at the University of Colorado, Boulder. Envisioning almost everything I work on, I look forward to becoming a an XR designer. I'd love to ideate & Prototype XR Applications for Medicine & Education`,
   heroBtn: "more about me",
 };
 
@@ -36,8 +36,8 @@ const Hero = () => {
               alt="hero man"
             />
             <h1 className="text-uppercase poppins-font">
-              I'm {heroContent.heroTitleName}.
-              <span>{heroContent.heroDesignation}</span>
+              I'm {heroContent.heroTitleName}
+              <p>{heroContent.heroDesignation}</p>
             </h1>
             <p align = 'justify' className="open-sans-font">{heroContent.heroDescriptions}</p>
             <button className="button" onClick={toggleModalOne}>

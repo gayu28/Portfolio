@@ -57,15 +57,15 @@ const Blog = () => {
       {/* Blog 1 Starts */}
       <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
         <article className="post-container" onClick={toggleModalOne}>
-          <div className="post-thumb">
+          {/* <div className="post-thumb">
             <div className="d-block position-relative overflow-hidden">
               <img
                 src="img/blog/project1.png"
                 className="img-fluid"
                 alt="Blog Post"
               />
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
@@ -107,7 +107,7 @@ const Blog = () => {
       {/*  Blog 2 Starts */}
       <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
         <article className="post-container" onClick={toggleModalTwo}>
-          <div className="post-thumb">
+          {/* <div className="post-thumb">
             <div className="d-block position-relative overflow-hidden">
               <img
                 src="img/blog/project2.jpg"
@@ -115,7 +115,7 @@ const Blog = () => {
                 alt="Blog Post"
               />
             </div>
-          </div>
+          </div> */}
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
@@ -157,7 +157,7 @@ const Blog = () => {
       {/*  Blog 3 Starts */}
       <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
         <article className="post-container" onClick={toggleModalThree}>
-          <div className="post-thumb">
+          {/* <div className="post-thumb">
             <div className="d-block position-relative overflow-hidden">
               <img
                 src="img/blog/project3.jpg"
@@ -165,7 +165,7 @@ const Blog = () => {
                 alt="Blog Post"
               />
             </div>
-          </div>
+          </div> */}
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
@@ -206,7 +206,7 @@ const Blog = () => {
       {/* Blog 4 Starts */}
       <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
         <article className="post-container" onClick={toggleModalFour}>
-          <div className="post-thumb">
+          {/* <div className="post-thumb">
             <div className="d-block position-relative overflow-hidden">
               <img
                 src="img/blog/project4.jpg"
@@ -214,7 +214,7 @@ const Blog = () => {
                 alt="Blog Post"
               />
             </div>
-          </div>
+          </div> */}
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
@@ -256,15 +256,15 @@ const Blog = () => {
       {/*  Blog 5 Starts */}
       <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
         <article className="post-container" onClick={toggleModalFive}>
-          <div className="post-thumb">
+          {/* <div className="post-thumb">
             <div className="d-block position-relative overflow-hidden">
               <img
                 src="img/blog/project52.jpg"
                 className="img-fluid"
                 alt="Blog Post"
               />
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
@@ -306,7 +306,7 @@ const Blog = () => {
       {/* Blog 6 Starts */}
       <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
         <article className="post-container" onClick={toggleModalSix}>
-          <div className="post-thumb">
+          {/* <div className="post-thumb">
             <div className="d-block position-relative overflow-hidden">
               <img
                 src="img/blog/project6.png"
@@ -314,7 +314,7 @@ const Blog = () => {
                 alt="Blog Post"
               />
             </div>
-          </div>
+          </div> */}
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
@@ -355,7 +355,7 @@ const Blog = () => {
       {/* Blog 7 Starts */}
       <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
         <article className="post-container" onClick={toggleModalSeven}>
-          <div className="post-thumb">
+          {/* <div className="post-thumb">
             <div className="d-block position-relative overflow-hidden">
               <img
                 src="img/blog/project7.jpeg"
@@ -363,7 +363,7 @@ const Blog = () => {
                 alt="Blog Post"
               />
             </div>
-          </div>
+          </div> */}
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
@@ -404,7 +404,7 @@ const Blog = () => {
       {/* Blog 8 Starts */}
       <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
         <article className="post-container" onClick={toggleModalEight}>
-          <div className="post-thumb">
+          {/* <div className="post-thumb">
             <div className="d-block position-relative overflow-hidden">
               <img
                 src="img/blog/project8.jpg"
@@ -412,7 +412,7 @@ const Blog = () => {
                 alt="Blog Post"
               />
             </div>
-          </div>
+          </div> */}
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
@@ -453,7 +453,7 @@ const Blog = () => {
       {/* Blog 9 Starts */}
       <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
         <article className="post-container" onClick={toggleModalNine}>
-          <div className="post-thumb">
+          {/* <div className="post-thumb">
             <div className="d-block position-relative overflow-hidden">
               <img
                 src="img/blog/project9.jpg"
@@ -461,7 +461,7 @@ const Blog = () => {
                 alt="Blog Post"
               />
             </div>
-          </div>
+          </div> */}
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">

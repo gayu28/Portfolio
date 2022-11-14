@@ -1,12 +1,12 @@
 export const SkillsData = [
-    {
-        id: 1,
-        skill: 'ReactJS',
-        icon: `${process.env.PUBLIC_URL}/assets/icons/react.png`,
-        contColor: 'rgba(97, 219, 251, 0.1)',
-        iconContColor: 'rgba(97, 219, 251, 0.2)',
-        group: 'Full Stack',
-    },
+    // {
+    //     id: 1,
+    //     skill: 'ReactJS',
+    //     icon: `${process.env.PUBLIC_URL}/assets/icons/react.png`,
+    //     contColor: 'rgba(97, 219, 251, 0.1)',
+    //     iconContColor: 'rgba(97, 219, 251, 0.2)',
+    //     group: 'Full Stack',
+    // },
     {
         id: 2,
         skill: 'C#',
@@ -39,14 +39,14 @@ export const SkillsData = [
         iconContColor: 'rgba(255, 218, 62, 0.2)',
         group: 'Full Stack'
     },
-    {
-        id: 6,
-        skill: 'jQuery',
-        icon: `${process.env.PUBLIC_URL}/assets/icons/jQuery.png`,
-        contColor: 'rgba(17, 105, 174, 0.1)',
-        iconContColor: 'rgba(17, 105, 174, 0.2)',
-        group: 'Full Stack'
-    },
+    // {
+    //     id: 6,
+    //     skill: 'jQuery',
+    //     icon: `${process.env.PUBLIC_URL}/assets/icons/jQuery.png`,
+    //     contColor: 'rgba(17, 105, 174, 0.1)',
+    //     iconContColor: 'rgba(17, 105, 174, 0.2)',
+    //     group: 'Full Stack'
+    // },
     {
         id: 7,
         skill: 'Bootstrap',
@@ -63,14 +63,14 @@ export const SkillsData = [
         iconContColor: 'rgba(230, 230, 230, 0.2)',
         group: 'Full Stack'
     },
-    {
-        id: 9,
-        skill: 'C',
-        icon: `${process.env.PUBLIC_URL}/assets/icons/c.png`,
-        contColor: 'rgba(92, 107, 192, 0.1)',
-        iconContColor: 'rgba(92, 107, 192, 0.2)',
-        group: 'Programming Languages'
-    },
+    // {
+    //     id: 9,
+    //     skill: 'C',
+    //     icon: `${process.env.PUBLIC_URL}/assets/icons/c.png`,
+    //     contColor: 'rgba(92, 107, 192, 0.1)',
+    //     iconContColor: 'rgba(92, 107, 192, 0.2)',
+    //     group: 'Programming Languages'
+    // },
     {
         id: 10,
         skill: 'C++',
@@ -87,14 +87,14 @@ export const SkillsData = [
         iconContColor: 'rgba(255, 114, 98, 0.2)',
         group: 'Design'
     },
-    {
-        id: 12,
-        skill: 'SQLPlus',
-        icon: `${process.env.PUBLIC_URL}/assets/icons/oracle.png`,
-        contColor: 'rgba(234, 27, 34, 0.1)',
-        iconContColor: 'rgba(234, 27, 34, 0.2)',
-        group: 'Database Management'
-    },
+    // {
+    //     id: 12,
+    //     skill: 'SQLPlus',
+    //     icon: `${process.env.PUBLIC_URL}/assets/icons/oracle.png`,
+    //     contColor: 'rgba(234, 27, 34, 0.1)',
+    //     iconContColor: 'rgba(234, 27, 34, 0.2)',
+    //     group: 'Database Management'
+    // },
     {
         id: 13,
         skill: 'MySQL',
@@ -121,11 +121,11 @@ export const SkillsData = [
     },
     {
         id: 16,
-        skill: 'Tensorflow',
-        icon: `${process.env.PUBLIC_URL}/assets/icons/tensorflow.png`,
-        contColor: 'rgba(255,127,80, 0.1)',
-        iconContColor: 'rgba(255,127,80, 0.2)',
-        group: 'ML frameworks'
+        skill: 'Blender',
+        icon: `${process.env.PUBLIC_URL}/assets/icons/blender.png`,
+        contColor: 'rgb(252, 163, 17, 0.1)',
+        iconContColor: 'rgb(252, 163, 17, 0.2)',
+        group: 'Tools'
     },
     {
         id: 17,

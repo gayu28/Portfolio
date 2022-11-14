@@ -5,7 +5,7 @@ const Address = () => {
     <>
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-map position-absolute"></i>
-        <span className="d-block">Address Point</span>193/B1, Charan Abode, Sakthi Nagar East extension, Thindal, Erode 638012
+        <span className="d-block">Address Point</span>2702 Moorehead Avenue, Boulder, Colorado - 80305
       </p>
       {/* End .custom-span-contact */}
 
@@ -19,7 +19,7 @@ const Address = () => {
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-envelope-open position-absolute"></i>
         <span className="d-block">mail me</span>{" "}
-        <a href="mailto:soumiya2805@gmail.com">soumiya2805@gmail.com</a>
+        <a href="mailto:sowmiya.shubbarayan@colorado.edu">sowmiya.shubbarayan@colorado.edu</a>
       </p>
       {/* End .custom-span-contact */}
 
@@ -27,7 +27,7 @@ const Address = () => {
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-phone-square position-absolute"></i>
         <span className="d-block">call me</span>{" "}
-        <a href="Tel: +91 6383585099">+91 6383585099</a>
+        <a href="Tel: +1 415 740 0022">+1 415 740 0022</a>
       </p>
     </>
   );

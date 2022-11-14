@@ -3,12 +3,12 @@ import React from "react";
 const personalInfoContent = [
   { meta: "Name", metaInfo: "Sowmiya Shubbarayan" },
   { meta: "Age", metaInfo: "21 Years" },
-  { meta: "Nationality", metaInfo: "Indian" },
-  { meta: "Degree", metaInfo: "Bachelors" },
-  { meta: "langages", metaInfo: "English, Tamil" },
-  { meta: "phone", metaInfo: "+916383585099" },
-  { meta: "Location", metaInfo: "Chennai, India" },
-  { meta: "Email", metaInfo: "soumiya2805@gmail.com" },
+  // { meta: "Nationality", metaInfo: "Indian" },
+  { meta: "Degree", metaInfo: "Master's" },
+  // { meta: "langages", metaInfo: "English, Tamil" },
+  { meta: "phone", metaInfo: "+1 415 740 0022" },
+  { meta: "Location", metaInfo: "Boulder, Colorado" },
+  { meta: "Email", metaInfo: "sowmiya.shubbarayan@colorado.edu" },
   
   
 ];

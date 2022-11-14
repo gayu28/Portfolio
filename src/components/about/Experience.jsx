@@ -2,24 +2,22 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   FEB 2021 - Present",
-    position: "RESEARCH INTERN",
+    year: "   FEB 2021 - FEB 2022",
+    position: "VR RESEARCH INTERN",
     compnayName: "IIT Madras Research Park",
-    details: `3D Model Simulations in Unity 3D - to train Surgeons`,
+    details: `C# Scripting in Unity to simulate virtual experiences to train young surgeons for complicated surgeries without risking human life.`,
     location: 'Chennai, India'
   },
   {
-    year: "APR 2020 - Present",
+    year: "APR 2020 - MAY 2022",
     position: "WEB DESIGNER & DEVELOPER",
     compnayName: "Mara Vascular and Interventional Radiology",
-    details: `Designed and Developed website;
-    AWS server maintenance;
-    3D simulations for patient education`,
+    details: `Designed & Developed the website for the radiology centre and Deployed it in Amazon Web Services (AWS). Also worked on incorporating 3D Animations for patient education`,
     location: 'Oklahoma, USA'
 
   },
   {
-    year: "APR 2020 - Present",
+    year: "APR 2020 - MAY 2022",
     position: "RESEARCH & TEACHING ASSISTANT",
     compnayName: "Solarillion Foundation",
     details: `Core research on behavioral analysis and Image processing;

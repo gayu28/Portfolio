@@ -2,11 +2,18 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2018-Present",
+    year: "2022-Present",
+    degree: "Masters in Creative Technologies & Design",
+    institute: "UNIVERSITY OF COLORADO, BOULDER",
+    details: `Focussing on Design Foundations,  User Experience (UX) and Augmented & Virtual Reality`,
+    location: 'Boulder, Colorado, USA'
+  },
+  {
+    year: "2018-2022",
     degree: "BACHELORS OF ENGINEERING",
-    institute: "CEG, ANNA UNIVERSITY",
+    institute: "COLLEGE OF ENGINEERING, ANNA UNIVERSITY",
     details: `Majors in Computer Science and Engineering;
-    Interested in Esthetic Computing, AI, and UI/UX`,
+    Specialised in Object Oriented Programming, Machine Learning & Parallel Computing`,
     location: 'Chennai, India'
   },
   {
@@ -17,14 +24,7 @@ const educationContent = [
     location: 'Erode, India'
 
   },
-  {
-    year: "2014-2016",
-    degree: "HIGH SCHOOL",
-    institute: "THE BVB SCHOOL",
-    details: `Cheerful school days when I was excelling in arts; Began to explore computers`,
-    location: 'Erode, India'
-
-  },
+  
 ];
 
 const Education = () => {

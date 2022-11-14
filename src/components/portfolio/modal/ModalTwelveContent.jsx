@@ -48,7 +48,7 @@ const ModalTwelveContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/projects/glass_painting2.png" alt="Portolio" />
+        <img src="img/projects/glass_painting3.jpg" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

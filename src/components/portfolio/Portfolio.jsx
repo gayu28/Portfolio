@@ -11,8 +11,10 @@ import ModalSevenContent from "./modal/ModalSevenContent";
 import ModalEightContent from "./modal/ModalEightContent";
 import ModalNineContent from "./modal/ModalNineContent";
 import ModalTenContent from "./modal/ModalTenContent";
-import ModalElevenContent from "./modal/ModalElevenContent";
+// import ModalElevenContent from "./modal/ModalElevenContent";
 import ModalTwelveContent from "./modal/ModalTwelveContent";
+import ModalThirteenContent from "./modal/ModalThirteenContent";
+
 
 
 const Portfolio = () => {
@@ -26,8 +28,9 @@ const Portfolio = () => {
   const [isOpen8, setIsOpen8] = useState(false);
   const [isOpen9, setIsOpen9] = useState(false);
   const [isOpen10, setIsOpen10] = useState(false);
-  const [isOpen11, setIsOpen11] = useState(false);
+  // const [isOpen11, setIsOpen11] = useState(false);
   const [isOpen12, setIsOpen12] = useState(false);
+  const [isOpen13, setIsOpen13] = useState(false);
 
 
 
@@ -61,11 +64,14 @@ const Portfolio = () => {
   function toggleModalTen() {
     setIsOpen10(!isOpen10);
   }
-  function toggleModalEleven() {
-    setIsOpen11(!isOpen11);
-  }
+  // function toggleModalEleven() {
+  //   setIsOpen11(!isOpen11);
+  // }
   function toggleModalTwelve() {
     setIsOpen12(!isOpen12);
+  }
+  function toggleModalThirteen() {
+    setIsOpen12(!isOpen13);
   }
 
   return (
@@ -500,7 +506,7 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalTwelve}
               >
-                <img src="img/projects/glass_painting2.png" alt="Portolio" />
+                <img src="img/projects/glass_painting3.jpg" alt="Portolio" />
 
                 <div className=" hover-content-wrapper">
                   <span className="content-title"> Dribbble Profile</span>
@@ -529,8 +535,6 @@ const Portfolio = () => {
               {/* End  ModalTwelveContent */}
             </li>
 
-
-
             <li
               className="direction-reveal"
               data-aos="fade-right"
@@ -539,36 +543,40 @@ const Portfolio = () => {
             >
               <figure
                 className="direction-reveal__card"
-                onClick={toggleModalEleven}
+                onClick={toggleModalThirteen}
               >
-                <img src="img/projects/safari2.jpg" alt="Portolio" />
+                <img src="img/projects/glass_painting4.png" alt="Portolio" />
 
                 <div className=" hover-content-wrapper">
                   <span className="content-title"> Dribbble Profile</span>
                 </div>
               </figure>
-              {/* Start ModalElevenContent */}
+              {/* Start ModalThirteenContent */}
               <Modal
-                isOpen={isOpen11}
-                onRequestClose={toggleModalEleven}
+                isOpen={isOpen12}
+                onRequestClose={toggleModalThirteen}
                 contentLabel="My dialog"
                 className="custom-modal dark"
                 overlayClassName="custom-overlay dark"
                 closeTimeoutMS={500}
               >
                 <div>
-                  <button className="close-modal" onClick={toggleModalEleven}>
+                  <button className="close-modal" onClick={toggleModalThirteen}>
                     <img src="/img/cancel.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
                   <div className="box_inner portfolio">
-                    <ModalElevenContent />
+                    <ModalThirteenContent />
                   </div>
                 </div>
               </Modal>
-              {/* End  ModalElevenContent */}
+              {/* End  ModalTwelveContent */}
             </li>
+
+
+
+            
             {/* <!-- Portfolio Item Ends --> */}
           </ul>
         </TabPanel>
@@ -954,6 +962,47 @@ const Portfolio = () => {
             </li>
             {/* <!-- Portfolio Item Ends --> */}
             
+            <li
+              className="direction-reveal"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="100"
+            >
+              <figure
+                className="direction-reveal__card"
+                onClick={toggleModalThirteen}
+              >
+                <img src="img/projects/glass_painting4.png" alt="Portolio" />
+
+                <div className=" hover-content-wrapper">
+                  <span className="content-title"> Dribbble Profile</span>
+                </div>
+              </figure>
+              {/* Start ModalThirteenContent */}
+              <Modal
+                isOpen={isOpen12}
+                onRequestClose={toggleModalThirteen}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalThirteen}>
+                    <img src="/img/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner portfolio">
+                    <ModalThirteenContent />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalThirteenContent */}
+            </li>
+
+
+
           
 
             <li
@@ -962,7 +1011,7 @@ const Portfolio = () => {
               data-aos-delay="0"
             >
               <figure onClick={toggleModalTwelve}>
-                <img src="img/projects/glass_painting2.png" alt="Portolio" />
+                <img src="img/projects/glass_painting3.jpg" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Mockup Project</span>
                 </div>
