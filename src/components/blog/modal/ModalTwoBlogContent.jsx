@@ -14,21 +14,44 @@ const ModalTwoBlogContent = () => {
 
       <div className="meta open-sans-font">
         <span className="date">
-          <i className="fa fa-calendar"></i> August 2021 - Present
+          <i className="fa fa-calendar"></i> 09/2022 -
+Present
         </span>
         <span>
-          <i className="fa fa-tags"></i> deep learning, image processing, time series forecast
+          <i className="fa fa-tags"></i> Augmented
+Reality/ Virtual
+Reality, 
+NeuroAnatomy, 
+Immersive
+Education
         </span>
       </div>
       {/* Meta Ends */}
       {/* Article Content Starts */}
 
-      <h1>Urbanization mapping using satellite imagery analysis(on-going)</h1>
-      <img src="img/blog/project2.jpg" className="img-fluid" alt="Blog" />
+      <h1>XR System to teach
+NeuroAnatomy </h1>
+      <img src="img/blog/Brain.jpeg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
         <p align="justify">
-        A deep learning model that performs time series analysis to get insights into urbanization trends in metropolitan cities from satellite images. This is essentially a comparison strategy that detects the change to model patio-temporal relationships. Work in this domain has been spread across many applications, such as weather forecast prediction and natural calamity recovery. Our focus on mapping urbanization trends arises from the awareness about the impacts and overcoming the difficulties of conventional methods of satellite imagery analysis.
-        </p>
+        Built in Unity, the XR System
+enables users to navigate and
+interact with 3D Brain
+simulations in AR & VR
+through C# Scripting. The
+Voiceover explains the
+anatomy & functionality of
+Brain in Virtual Reality. The
+Augmented Reality
+Environment tracks the 3D
+printed brain models and adds
+information, textures in the
+immersive space. An
+evaluation section scores the
+understanding at the end with
+MCQ, Parts Identification &
+Overall Concept
+Summarisation        </p>
         {/* <div className="quotebox">
           <div className="icon">
             <img src="img/blog/quote.svg" alt="blog quote" />

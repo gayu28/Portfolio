@@ -14,25 +14,42 @@ const ModalThreeBlogContent = () => {
 
       <div className="meta open-sans-font">
         <span className="date">
-          <i className="fa fa-calendar"></i> September 2020 - July 2021
+          <i className="fa fa-calendar"></i> 10/2022 -
+Present
         </span>
         <span>
-          <i className="fa fa-tags"></i> Fake news detection, Multi-head attention, Graph Neural Networks
+          <i className="fa fa-tags"></i> Prototyping
+Figma
+Design Concepts
         </span>
       </div>
       {/* Meta Ends */}
       {/* Article Content Starts */}
     <div className="link">
-      <h1>SOMPS-Net <a href="https://github.com/sowmiya-2805/SOMPS-Net-Social-graph-framework-for-fake-health-news-detection"><i class="fa fa-link" aria-hidden="true"></i></a>  </h1>
+      <h1>Mobile Application Design
+for awareness & remote
+patient recovery during
+Pandemic <a href="https://github.com/sowmiya-2805/SOMPS-Net-Social-graph-framework-for-fake-health-news-detection"><i class="fa fa-link" aria-hidden="true"></i></a>  </h1>
   </div>
-      <img src="img/blog/project3.jpg" className="img-fluid" alt="Blog" />
+      <img src="img/blog/AppDesign.png" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
+        
         <p align="justify">
-        A novel graph-based framework SOcial graph with Multi-head attention and Publisher information and news Statistics Network abbreviated as SOMPS-Net. It is essentially a graph-based solution that utilizes user network information for a given news article to predict its veracity at early stages.
-        </p>
-        <p align="justify">The architecture is split into two main components. One is the social interaction graph, which captures the network information via Graph Neural Networks. The second component is the Publisher and News statistics, which encompasses details, such as a lifetime of news articles and the average rating of the publisher that cannot be fabricated for a long time.</p>
-        <p align="justify">The traditional approach is to detect fake medical news using an article's content and linguistic features. It is important to note that such content can easily be manipulated and made to look real with today's enhanced technologies. With relevant information, the model outperformed other existing models by a large margin, strengthening our emphasis on graphs and publisher statistics.</p>      
-      </div>
+        Prototyping a mobile
+application (in Figma) with
+animations explaining COVID
+& its symptoms and provides
+facilities to connect Doctors
+for remote consultation. The
+Integrity is ensured by
+approving the content and
+Doctors’ license by an
+automated system endorsed by
+legal authority. Incorporates
+essential Design concepts like
+Sustainability, Speculative
+Design and Designing from
+the margins     </p> </div>
       {/* Article Content Ends */}
     </article>
     // Article Ends

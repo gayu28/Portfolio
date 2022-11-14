@@ -14,21 +14,38 @@ const ModalOneBlogContent = () => {
 
       <div className="meta open-sans-font">
         <span className="date">
-          <i className="fa fa-calendar"></i> October 2021 - Present
+          <i className="fa fa-calendar"></i> 11/2022 - Present
         </span>
         <span>
-          <i className="fa fa-tags"></i> deep learning, neural radiance, 3D reconstruction
+          <i className="fa fa-tags"></i> Data Visualisation,
+Charts.js,
+Network Insights
         </span>
       </div>
       {/* Meta Ends */}
       {/* Article Content Starts */}
 
-      <h1>Reconstructing 3D simulations from 2D images (on-going)</h1>
-      <img src="img/blog/project1.png" className="img-fluid" alt="Blog" />
+      <h1>Interactive Dashboard for
+network insights of personal
+LinkedIn profile</h1>
+      <img src="img/blog/Dashboard.png" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
         <p align="justify">
-        A novel model that takes in 2D images and processes precise depth maps to produce 3D simulations. Usually, the input of a 2D image is given from many angles, which eventually increases the storage requirements. This project aims to bring out precise 3D models with minimal views for an image. Aside from computational costs, our team is working on incorporating lighting effects from multiple viewpoints. Such transformation of an object or a scene in a multi-dimensional space improves the scene-understanding capabilities of machines. Also, it lays down the foundation for automated simulation in immersive technologies, such as Virtual Reality.
-        </p>
+        A compelling dashboard built
+primarily using Charts.js (a
+javascript library) to
+demonstrate the quality and
+growth of LinkedIn network.
+The personal archived data is
+downloaded and processed
+with Python that is used for
+the data visualisation. There
+are lots of things to analyse
+about one’s connections other
+than just the count. Especially,
+this can help self-assessment
+for actively job seeking young
+professionals.         </p>
       </div>
       {/* Article Content Ends */}
     </article>

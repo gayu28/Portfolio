@@ -7,7 +7,7 @@ const heroContent = {
   heroMobileImage: "img-mobile",
   heroTitleName: "Sowmiya",
   heroDesignation: "CREATIVE TECHNOLOGIST AND ASPIRING XR DESIGNER",
-  heroDescriptions: `I'm a junior Master's Student specialising in Creative Technologies at the University of Colorado, Boulder. Envisioning almost everything I work on, I look forward to becoming a an XR designer. I'd love to ideate & Prototype XR Applications for Medicine & Education`,
+  heroDescriptions: `I'm a junior Master's Student specialising in Creative Technologies at the University of Colorado, Boulder. Envisioning almost everything I work on, I look forward to becoming a an XR designer. I'd love to ideate & Prototype XR Applications for Medicine & Education.`,
   heroBtn: "more about me",
 };
 
