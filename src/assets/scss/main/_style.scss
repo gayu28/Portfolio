@@ -1210,8 +1210,11 @@ body.light .contact .custom-span-contact a {
 /* Latest Posts */
 
 .blog .post-container {
-  display: block;
+  display: inline-grid;
   cursor: pointer;
+  width: 380px;
+  height: 370px;
+
 }
 
 .blog .post-content {
@@ -1226,6 +1229,7 @@ body.light .contact .custom-span-contact a {
 }
 
 .blog .post-content .entry-header h3 a {
+  text-align: center;
   text-decoration: none;
   transition: 0.5s;
 }
